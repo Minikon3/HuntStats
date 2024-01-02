@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Игроки</title>
+</head>
+<body>
+    <div class="container">
+        <h1>Игроки</h1>
+        <form id="xmlForm">
+            <input type="file" id="fileInput" accept=".xml" />
+            <button type="button" onclick="parseXML()">Загрузить XML</button>
+        </form>
+        <div id="playersContainer" class="players-container"></div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
